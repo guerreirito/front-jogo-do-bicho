@@ -5,7 +5,7 @@ import "./App.css"
 function App() {
 
   async function getData() {
-    const response = await axios.get("http://localhost:3333/");
+    const response = await axios.get("https://api-jogo-do-bicho.herokuapp.com/");
     const data = await response.data;
     const root = document.querySelector("#root");
     const body = document.querySelector("body");
