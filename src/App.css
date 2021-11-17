@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 10px;
 }
 
 tbody > tr:first-child {
@@ -16,5 +15,7 @@ table {
 }
 
 @media (max-width: 720px) {
-  
+  #root {
+    font-size: 10px;
+  }
 }
